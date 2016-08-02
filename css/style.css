@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,table,tr,td,form,p,label,em,strong,b,input,select,option,textarea,ul,li,a,span{ margin:0; padding:0}
+li{ list-style:none}
+a{ color:#3c3c3c; text-decoration:none}
+a:hover{ color:#f04381}
+img{ border:0; vertical-align:top;}
+body{ font-family:"宋体"; font-size:12px; background:#e7e7e7;}
+.clearfix{ *zoom:1}
+.clearfix:after{ content:"."; display:block; visibility:hidden; clear:both; height:0}
+
+.header{ height:56px; width:100%; border-bottom:1px solid #dbdbdb; background:#FFF}
+.header-1{ width:980px; height:56px; margin:0 auto; line-height:56px}
+.logo{ float:left; width:auto; height:auto; font-family:"黑体"; font-size:41px; color:#f04381; margin-left:8px; margin-right:56px}
+.header-text{ float:left; width:426px;height:56px; font-family:"微软雅黑"; font-size:18px; color:#707070;}
+.header-text li{ float:left; margin-right:37px}
+.search{ float:left; background:url(../images/sprite.jpg) 0 -148px; width:200px ; height:30px; margin:10px 0 0 52px}
+.search-1 { float:left; width:160px; height:30px; border:0 ; background:none; color:#dbdbdb; padding-left:9px}
+.search-2{ float:right; width:30px; height:30px;border:0 ; background:none; }
+.reg{ float:right; width:133px; height:31px; margin-top:8px}
+.reg-1{ float:left; background:url(../images/sprite.jpg) 0 0; width:55px ; height:30px; color:#FFF; line-height:30px; text-align:center; margin-right:8px}
+.reg-2{ background:url(../images/sprite.jpg) 0 -37px}
+.middle{ width:820px; height:auto; padding:0 27px 0 31px; border:1px solid #cfdfe0; margin:19px auto 0; background:#FFF}
+.middle-1{ width:auto; height:39px;}
+.middle-1 h2{ float:left; color:#006699; margin-top:18px;}
+.middle-1 a{ float:right; color:#006699; margin-top:25px; font-weight:bold}
+.middle-2{ height:33px; line-height:35px; color:#444444; font-family:"微软雅黑"; font-weight:bold; padding-top:2px}
+.middle-3 p{ margin:9px 0 11px 0;color:#444444; font-family:"微软雅黑"; font-weight:bold; font-size:14px; text-indent:2em}
+.middle-4{ text-align:center; margin-top:12px}
+.middle-4 a{ display:inline-block; height:25px; background:#006699; color:#FFF; line-height:25px; padding:0 5px}
+.middle-4 span{ color:#dedede}
+.middle-5{ width:814px; height:55px; border-bottom:1px dashed #dedede; line-height:55px}
+.middle-5 a{ color:#006699}
+.middle-5 span{ margin:0 6px 0 8px}
+h3{ height:58px; line-height:58px; font-size:14px ;font-family:"微软雅黑"; color:#444444 }
+.middle-6 textarea{ display:block; width:818px; height:105px ; border:1px solid #999999; font-size:13px; line-height:20px; padding:5px; resize:none}
+.m6-1{ display:block; width:55px; height:30px; border-radius:5px; background:#86b1d6; text-align:center; line-height:30px; font-size:14px; color:#FFF; border:0; margin-top:10px; cursor:pointer}
+.h3-1{ border-bottom:dashed 1px #999999}
+.middle-7{ padding:18px 0 11px 0; color:#797979; font-weight:bold;font-family:"微软雅黑"; font-size:13px}
+.middle-7 dt{ margin-bottom:15px}
+.middle-7 dd{ margin-left:34px; border-left:2px solid #d5d5d5; padding-left:9px}
+.foot{ width:100%; height:65px; margin-top:27px; text-align:center; color:#999999}
+.foot p{ margin-top:8px}
+.reg a.reg-1:hover { background:url(../images/sprite.jpg) 0px -74px}
+.reg a.reg-2:hover { background:url(../images/sprite.jpg) 0px -112px}
+.login{ width:100%; height:100%;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#3D000000', endColorstr='#3D000000');background:rgba(0,0,0,0.24); position:fixed; top:0;left:0;
+	transition:top 0.5s;
+	-webkit-transition:top 0.5s;
+	-o-transition:top 0.5s;
+	-moz-transition:top 0.5s;
+}
+.login-1{ position:absolute; left:50%; top:50%; width:650px; height:215px; border:5px solid #3694d7; background:#FFF; margin:-108px 0 0 -325px}
+.login-1-1{ height:24px;}
+.login-1-1 i{ float:left; font-style:normal; font-size:14px; font-weight:bold;font-family:"微软雅黑"; margin:6px 0 0 8px}
+.login-1-1 h2{ float:right}
+.login-1-1 a{ display:block; float:right;font-size:14px; font-weight:bold;font-family:"微软雅黑"; color:#238fdb; margin-top:3px; margin-right:3px; cursor:pointer}
+.login-2{ float:left; width:359px; height:152px; border-right:1px solid #cccccc; margin-left:8px; padding-top:17px}
+.user{; width:246px; height:34px; line-height:34px; font-size:14px; font-weight:bold;font-family:"微软雅黑"; color:#444444}
+.user input{ float:right; display:block; width:186px; height:24px ; border:1px solid #aaaaaa; margin:4px 0 }
+.user span{ display:block; float:left}
+.time{ float:left; margin:4px 0 0 56px;}
+.login-2-1{ float:left; height:30px;line-height:30px; text-align:center;margin-left:57px; margin-top:16px}
+.login-2-1 a{ float:left; display:block; width:55px ; height:30px;  background:#85b0d4; color:#FFF; border-radius:5px; }
+.login-2-1 p{ float:left; color:#006699; cursor:pointer; text-decoration:underline; margin-left:10px; font-weight:bold}
+.login-3{ float:left; color:#444444; font-family:"微软雅黑";font-weight:bold; margin:17px 0 0 34px}
+.login-3 a{ display:block; width:55px; height:30px; background:url(../images/sprite.jpg) 0 -37px; margin-top:15px; line-height:30px; text-align:center; color:#FFF}
+.time i{ height:13px; line-height:13px; float:left; font-style:normal}
+.time span{float:left; height:13px; line-height:13px;}
+.time input{float:left; height:13px; line-height:13px;}
+
